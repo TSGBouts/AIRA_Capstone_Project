@@ -1,0 +1,85 @@
+# -----------------------------
+# Python / Build Artifacts
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# -----------------------------
+# Virtual Environments
+# -----------------------------
+venv/
+env/
+.venv/
+ENV/
+.ENV/
+
+# -----------------------------
+# IDE / Editor Files
+# -----------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs / Checkpoints
+# -----------------------------
+*.log
+*.out
+*.bak
+*.tmp
+*.swp
+
+# TensorBoard / WandB / Hydra logs
+runs/
+wandb/
+lightning_logs/
+hydra_output/
+
+# -----------------------------
+# Temporary / Results / Plots
+# -----------------------------
+results/
+outputs/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# -----------------------------
+# Data
+# -----------------------------
+data/
+datasets/
+*.csv
+*.h5
+*.json
+
+# -----------------------------
+# Custom project-specific
+# -----------------------------
+# Avoid committing intermediate RMSE test files or large debug data
+*_temp.py
+*_debug.py
+*_test.py
+
+# Keep key source files tracked
+!Circle.py
+!Robot.py
+!IKModel.py
+!TrainIK.py
+!RunCircle.py
+!SweepCircles.py
